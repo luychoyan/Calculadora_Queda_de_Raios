@@ -1,9 +1,27 @@
 * {
     margin: 3px;
-    padding: 3px;
+    padding: 7px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    color: aliceblue;
 }
 
 body {
-    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    background-image: url(imagens/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+
+}
+
+main {
+    width: 320px;
+    height: 350px;
+    background-color: rgba(10, 10, 10, 0.418);
+    border-radius: 30px;
+    border: 2px solid white;
 }
