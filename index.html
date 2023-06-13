@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora de raios</title>
+</head>
+<body>
+    <header>
+        <h1>Veja qual a distancia o raio caiu de você!</h1>
+    </header>
+
+    <main>
+        <h2>Primeiro, veja um raio. Depois conte quantos segundos você levou para ouvir o som do trovão...</h2>
+        <h3><label for="segundos">Agora, coloque o valor em segundos aqui:</label> <input type="number" name="" id="segundos">
+        </h3>
+
+        <div id="caixa-botao">
+            <input id="botao" type="button" value="Calcular" onclick="calcular()">
+        </div>
+
+        <div id="resposta">
+            Pode deixar que eu faço a conta pra você!
+        </div>
+    </main>
+
+    <script src="logica.js"></script>
+    
+</body>
+</html>
